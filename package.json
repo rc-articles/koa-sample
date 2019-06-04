@@ -1,0 +1,18 @@
+{
+  "name": "koa-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --harmony index.js",
+    "start": "node --harmony index.js"
+  },
+  "author": "shubh",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-cors": "0.0.16",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0"
+  }
+}
